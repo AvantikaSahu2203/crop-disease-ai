@@ -1,0 +1,11 @@
+# Dataset
+IMAGE_SIZE = 224
+NUM_CLASSES = 38
+
+# Training
+BATCH_SIZE = 32
+LEARNING_RATE = 0.001
+EPOCHS = 10
+
+# DataLoader
+NUM_WORKERS = 2
