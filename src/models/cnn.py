@@ -13,3 +13,10 @@ class CropDiseaseCNN(nn.Module):
             kernel_size=3,
             padding=1
         )
+
+        self.relu = nn.ReLU()
+
+        self.pool = nn.MaxPool2d(
+            kernel_size=2,
+            stride=2
+        )
